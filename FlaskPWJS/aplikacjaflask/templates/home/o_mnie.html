@@ -1,0 +1,20 @@
+{% extends 'schemat.html' %}
+
+{% block header %}
+<h2 class="display-4">{% block title %}O mnie{% endblock %}</h2>
+{% endblock %}
+
+{% block content %}
+<p class="lead">Witryna została utworzona przez Mateusza Palewskiego, 18903 IIS w celu zaliczenia przedmiotu PWJS,
+    <br>
+    studia stacjonarne, inżynierskie, rok II, kierunek informatyka.
+</p>
+<style>
+    h2,
+    p {
+        background: -webkit-gradient(linear, left top, right bottom, from(#756d6e), to(#000000));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
+{% endblock %}
